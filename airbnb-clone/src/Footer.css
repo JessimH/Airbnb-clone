@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+.footer {
+  border: 1px solid lightgray;
+  padding: 20px;
+  background: #f7f7f7;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer p {
+  padding: 5px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=Footer.css.map */
