@@ -13,7 +13,7 @@ function Banner() {
                 <Button onClick={() => {
                     setShowSearch(!showSearch)
                 }} className="banner__searchButton" variant='outlined'>
-                    {showSearch ? "Hide" : "Search Dates"}
+                    {showSearch ? "Cacher" : "Choisir une date"}
                 </Button>
             </div>
             <div className="banner__info">
@@ -23,7 +23,7 @@ function Banner() {
                 <h5>
                     Plan a different kind of getaway to uncover the hidden gems near you
                 </h5>
-                <Button variant='outlined'>Explore Nearby</Button>
+                <Button variant='outlined'>Explorer</Button>
             </div>
         </div>
     )
