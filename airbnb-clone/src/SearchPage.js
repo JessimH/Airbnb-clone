@@ -1,6 +1,7 @@
 import React from 'react'
 import './SearchPage.css'
 import { Button } from '@material-ui/core'
+import SearchResult from './SearchResult'
 
 function SearchPage() {
     return (
@@ -24,6 +25,51 @@ function SearchPage() {
                     More filters
                 </Button>
             </div>
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/06c92139-5f76-475a-9f63-a6f959fb7a7b.jpg?im_w=1200"
+                location="Private room in center of London"
+                title="Stay at this spacious Edwardian House"
+                description="1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing Machine"
+                star={4.73}
+                price="30€ / nuits"
+                total="117 €"
+            />
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/06c92139-5f76-475a-9f63-a6f959fb7a7b.jpg?im_w=1200"
+                location="Private room in center of London"
+                title="Stay at this spacious Edwardian House"
+                description="1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing Machine"
+                star={4.73}
+                price="30€ / nuits"
+                total="117 €"
+            />
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/06c92139-5f76-475a-9f63-a6f959fb7a7b.jpg?im_w=1200"
+                location="Private room in center of London"
+                title="Stay at this spacious Edwardian House"
+                description="1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing Machine"
+                star={4.73}
+                price="30€ / nuits"
+                total="117 €"
+            />
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/06c92139-5f76-475a-9f63-a6f959fb7a7b.jpg?im_w=1200"
+                location="Private room in center of London"
+                title="Stay at this spacious Edwardian House"
+                description="1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing Machine"
+                star={4.73}
+                price="30€ / nuits"
+                total="117 €"
+            />
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/06c92139-5f76-475a-9f63-a6f959fb7a7b.jpg?im_w=1200"
+                location="Private room in center of London"
+                title="Stay at this spacious Edwardian House"
+                description="1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - Wifi - Kitchen - Free parking - Washing Machine"
+                star={4.73}
+                price="30€ / nuits"
+                total="117 €"
+            />
         </div>
     )
 }
