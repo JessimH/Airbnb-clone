@@ -5,15 +5,17 @@ import 'react-date-range/dist/theme/default.css'
 import { DateRangePicker } from 'react-date-range'
 import PoepleIcon from '@material-ui/icons/People'
 import { Button } from '@material-ui/core'
+import { useHistory } from 'react-router-dom'
 
 function Search() {
+    const history = useHistory()
     const [startDate, setStartDate] = useState(new Date())
     const [endDate, setEndDate] = useState(new Date())
 
     const selectionRange = {
         startDate: startDate,
         endDate: endDate,
-        key: "selection,"
+        key: "selection",
     }
 
     function handleSelect(ranges) {
@@ -29,7 +31,7 @@ function Search() {
                 <PoepleIcon />
             </h2>
             <input type="number" min={0} defaultValue={2} />
-            <Button>Chercher un Airbnb</Button>
+            <Button onClick={() => history.push('/search')}> Chercher un Airbnb</Button>
         </div>
     )
 }
